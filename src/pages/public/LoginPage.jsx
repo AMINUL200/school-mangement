@@ -211,7 +211,7 @@ export default function LoginPage() {
           </form>
 
           {/* Demo accounts — click to login instantly */}
-          {import.meta.env.DEV && (
+          {/* {import.meta.env.DEV && ( */}
             <div className="mt-8">
               <div className="flex items-center gap-3">
                 <div className="h-px flex-1 bg-[var(--border)]" />
@@ -242,7 +242,7 @@ export default function LoginPage() {
                 ))}
               </div>
             </div>
-          )}
+          {/* )} */}
 
           <p className="mt-8 text-center text-xs text-[var(--muted)]">
             By signing in you agree to our{" "}
